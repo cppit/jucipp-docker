@@ -1,4 +1,4 @@
-FROM codekoala/arch
+FROM jonathonf/manjaro
 
 RUN pacman -Syuu --noconfirm \
  && pacman -S --noconfirm \
