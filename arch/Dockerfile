@@ -1,6 +1,6 @@
-FROM jonathonf/manjaro
+FROM zalox/manjaro
 
-RUN pacman -Syuu --noconfirm \
+RUN pacman -Syu --noconfirm \
  && pacman -S --noconfirm \
     cmake \
     pkg-config \
@@ -9,4 +9,5 @@ RUN pacman -Syuu --noconfirm \
     gtksourceviewmm \
     boost \
     aspell \
-    aspell-en
+    aspell-en \
+ && pacman -Sc --noconfirm
