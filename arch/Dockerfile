@@ -10,4 +10,5 @@ RUN pacman -Syu --noconfirm \
     boost \
     aspell \
     aspell-en \
+    pygobject-devel \
  && pacman -Sc --noconfirm

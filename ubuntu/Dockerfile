@@ -15,4 +15,7 @@ RUN apt-get update \
     libgtksourceviewmm-3.0-dev \
     aspell-en \
     libaspell-dev \
+    python3 \
+    python-gi \
+    gobject-introspection \
  && rm -rf /var/lib/apt/lists/*

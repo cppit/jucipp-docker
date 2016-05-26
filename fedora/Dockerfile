@@ -1,6 +1,7 @@
 FROM fedora:latest
 
 RUN dnf -y update \
+ && dnf -y upgrade \
  && dnf -y install \
     cmake \
     make \
@@ -14,4 +15,5 @@ RUN dnf -y update \
     gtkmm30-devel \
     aspell-devel \
     aspell-en \
+    pygobject3 \
  && dnf clean all
