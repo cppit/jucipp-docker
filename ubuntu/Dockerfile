@@ -18,4 +18,6 @@ RUN apt-get update \
     python3 \
     python-gi \
     gobject-introspection \
+ && apt-get autoremove -y \
+ && apt-get autoclean \
  && rm -rf /var/lib/apt/lists/*
