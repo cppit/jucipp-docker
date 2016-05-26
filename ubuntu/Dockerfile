@@ -15,8 +15,8 @@ RUN apt-get update \
     libgtksourceviewmm-3.0-dev \
     aspell-en \
     libaspell-dev \
-    python3 \
-    python-gi \
+    python3-dev \
+    python-gi-dev \
     gobject-introspection \
  && apt-get autoremove -y \
  && apt-get autoclean \

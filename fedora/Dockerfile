@@ -15,5 +15,7 @@ RUN dnf -y update \
     gtkmm30-devel \
     aspell-devel \
     aspell-en \
+    gobject-introspection-devel \
+    python3-devel \
     pygobject3 \
  && dnf clean all
