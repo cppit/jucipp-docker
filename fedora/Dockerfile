@@ -16,6 +16,6 @@ RUN dnf -y update \
     aspell-devel \
     aspell-en \
     gobject-introspection-devel \
-    python3-devel \
-    pygobject3 \
+    pygobject3-devel \
+    python3-gobject \
  && dnf clean all
