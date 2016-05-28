@@ -18,4 +18,5 @@ RUN dnf -y update \
     gobject-introspection-devel \
     pygobject3-devel \
     python3-gobject \
+    python3-devel \
  && dnf clean all
