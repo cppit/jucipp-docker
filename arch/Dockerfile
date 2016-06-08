@@ -6,6 +6,7 @@ RUN pacman -Syu --noconfirm \
     pkg-config \
     make \
     clang \
+    lldb \
     gtksourceviewmm \
     boost \
     aspell \
