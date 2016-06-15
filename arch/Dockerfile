@@ -12,4 +12,5 @@ RUN pacman -Syu --noconfirm \
     aspell \
     aspell-en \
     pygobject-devel \
+    libgit2 \
  && pacman -Sc --noconfirm

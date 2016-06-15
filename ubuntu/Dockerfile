@@ -18,6 +18,7 @@ RUN apt-get update \
     python3-dev \
     python-gi-dev \
     gobject-introspection \
+    libgit2-dev \
  && apt-get autoremove -y \
  && apt-get autoclean \
  && rm -rf /var/lib/apt/lists/*

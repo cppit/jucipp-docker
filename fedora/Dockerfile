@@ -19,4 +19,5 @@ RUN dnf -y update \
     pygobject3-devel \
     python3-gobject \
     python3-devel \
+    libgit2-devel \
  && dnf clean all
