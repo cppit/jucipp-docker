@@ -1,5 +1,7 @@
 FROM debian:testing
 
+ENV LLVM_VERSION=3.9
+
 RUN apt-get update \
  && apt-get upgrade -y \
  && apt-get install -y --fix-missing \
@@ -7,10 +9,10 @@ RUN apt-get update \
     make \
     g++ \
     clang \
-    llvm-3.6-tools \
-    libclang-3.6-dev \
-    liblldb-3.6-dev \
-    clang-format-3.6 \
+    llvm-${LLVM_VERSION}-tools \
+    libclang-${LLVM_VERSION}-dev \
+    liblldb-${LLVM_VERSION}-dev \
+    clang-format-${LLVM_VERSION} \
     pkg-config \
     libboost-filesystem-dev \
     libboost-regex-dev \
