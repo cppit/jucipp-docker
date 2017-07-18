@@ -1,6 +1,6 @@
 FROM debian:stable
 
-ENV LLVM_VERSION=3.5
+ENV LLVM_VERSION=3.8
 
 RUN apt-get update \
  && apt-get upgrade -y \
