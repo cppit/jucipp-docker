@@ -14,7 +14,7 @@ RUN apt-get update \
     clang-format-${LLVM_VERSION} \
     pkg-config \
     libboost-filesystem-dev \
-    libboost-regex-dev \
+    libboost-serialization-dev \
     libgtksourceviewmm-3.0-dev \
     aspell-en \
     libaspell-dev \
