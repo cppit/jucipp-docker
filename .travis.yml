@@ -1,0 +1,14 @@
+sudo: required
+
+env:
+  - distribution: ubuntu
+  - distribution: fedora
+  - distribution: arch
+  - distribution: debian-testing
+  - distribution: debian
+
+services:
+  - docker
+
+script:
+  - docker build "./${distribution}"
