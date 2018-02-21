@@ -1,6 +1,6 @@
 FROM debian:testing
 
-ENV LLVM_VERSION=3.9
+ENV LLVM_VERSION=4.0
 
 RUN apt-get update \
  && apt-get upgrade -y \
