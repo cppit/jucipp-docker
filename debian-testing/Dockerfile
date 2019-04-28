@@ -1,6 +1,6 @@
 FROM debian:testing
 
-ENV LLVM_VERSION=4.0
+ENV LLVM_VERSION=7
 
 RUN apt-get update \
  && apt-get upgrade -y \

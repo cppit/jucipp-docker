@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-ENV LLVM_VERSION=3.8
+ENV LLVM_VERSION=6.0
 
 RUN apt-get update \
  && apt-get upgrade -y \
