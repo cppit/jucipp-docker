@@ -26,4 +26,5 @@ RUN apt-get update \
     libgit2-dev \
  && apt-get autoremove -y \
  && apt-get autoclean \
- && rm -rf /var/lib/apt/lists/*
+ && rm -rf /var/lib/apt/lists/* \
+ && ln -s /usr/bin/scan-build-${LLVM_VERSION} /usr/bin/scan-build

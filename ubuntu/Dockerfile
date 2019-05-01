@@ -9,6 +9,7 @@ RUN apt-get update \
     make \
     g++ \
     clang \
+    clang-tools-${LLVM_VERSION} \
     libclang-${LLVM_VERSION}-dev \
     liblldb-${LLVM_VERSION}-dev \
     clang-format-${LLVM_VERSION} \
